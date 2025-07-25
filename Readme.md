@@ -2,7 +2,8 @@
 
 ## 📘 Overview
 
-This project provides a practical implementation of a **serverless cost optimization architecture** using **Azure Cosmos DB**, **Azure Functions**, and **Python**.
+This solution addresses cost optimization in an Azure serverless architecture where billing records are stored in Azure Cosmos DB.
+Due to a read-heavy workload and data retention beyond 3 months, storage costs have significantly increased. To reduce costs while maintaining data availability, a Python-based Azure Function is used to archive older records into Azure Blob Storage..
 
 ### ✅ Objective
 
