@@ -39,22 +39,25 @@ azure-billing-optimizer/
 
 ## Screenshots
 
-📌 **Note:** Sensitive details like keys are partially blurred for security.
+📌**Note:** Sensitive details like keys are partially blurred for security.
 
 1. **Azure Function App in Azure Portal**  
-   ![Function App in Portal](./screenshots/function-app.png)
+   ![Function App in Portal](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/60a4ad551ab372756e617650182e82a1f46b3632/screenshots/Azure%20Function%20App%20in%20Azure%20Portal.png)
 
 2. **Cosmos DB Container with Billing Records**  
-   ![Cosmos DB Data](./screenshots/cosmos-container.png)
+   ![Cosmos DB Data](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/60a4ad551ab372756e617650182e82a1f46b3632/screenshots/Cosmos%20DB%20Container%20with%20Billing%20Records.png)
+
+2. **storage account**  
+   ![storage](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/60a4ad551ab372756e617650182e82a1f46b3632/screenshots/storage-account.png)
 
 3. **Log Output of Function Executing**  
    ![Function Log Output](./screenshots/function-logs.png)
 
 4. **App Settings with Cosmos Credentials (Blurred)**  
-   ![App Settings](./screenshots/app-settings.png)
+   ![App Settings](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/60a4ad551ab372756e617650182e82a1f46b3632/screenshots/App%20Settings%20with%20Cosmos%20Credentials%20(Blurred).png)
 
 5. **Terminal Output After Successful Deployment**  
-   ![Terminal Output](./screenshots/terminal-deploy.png)
+   ![Terminal Output](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/60a4ad551ab372756e617650182e82a1f46b3632/screenshots/Terminal%20Output%20After%20Successful%20Deployment.png)
 
 ---
 
