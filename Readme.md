@@ -38,6 +38,26 @@ azure-billing-optimizer/
 └── README.md                     # Project instructions
 
 
+## 📸 Screenshots
+
+> 📌 **Note:** Sensitive details like keys are partially blurred for security.
+
+1. **Azure Function App in Azure Portal**  
+   ![Function App in Portal](./screenshots/function-app.png)
+
+2. **Cosmos DB Container with Billing Records**  
+   ![Cosmos DB Data](./screenshots/cosmos-container.png)
+
+3. **Log Output of Function Executing**  
+   ![Function Log Output](./screenshots/function-logs.png)
+
+4. **App Settings with Cosmos Credentials (Blurred)**  
+   ![App Settings](./screenshots/app-settings.png)
+
+5. **Terminal Output After Successful Deployment**  
+   ![Terminal Output](./screenshots/terminal-deploy.png)
+
+
 ## ⏰ Function Logic
 
 - Triggered every **hour**
