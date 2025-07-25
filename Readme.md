@@ -2,8 +2,7 @@
 
 ## 📘 Overview
 
-This solution addresses cost optimization in an Azure serverless architecture where billing records are stored in Azure Cosmos DB.
-Due to a read-heavy workload and data retention beyond 3 months, storage costs have significantly increased. To reduce costs while maintaining data availability, a Python-based Azure Function is used to archive older records into Azure Blob Storage..
+This solution addresses a cost optimization challenge in an Azure-based serverless architecture where billing records are stored in Azure Cosmos DB. Due to a read-heavy workload and data growth exceeding 2 million records, the Cosmos DB storage costs have significantly increased — especially as records older than 3 months are rarely accessed.
 
 ### ✅ Objective
 
