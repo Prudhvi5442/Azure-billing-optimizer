@@ -46,7 +46,7 @@ To reduce costs in a read-heavy Cosmos DB workload by **archiving old billing re
 
 This diagram illustrates the serverless architecture used to optimize billing records by archiving data older than 3 months to reduce storage cost.
 
-![Architecture Diagram]([./screenshots/architecture.png](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/9841da2e92b3c024c194e716160d6f9822b9b027/screenshots/arc.png)
+![Architecture Diagram](./screenshots/architecture.png](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/9841da2e92b3c024c194e716160d6f9822b9b027/screenshots/arc.png](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/9841da2e92b3c024c194e716160d6f9822b9b027/screenshots/arc.png)
 
 
 ---
