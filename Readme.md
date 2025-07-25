@@ -40,7 +40,7 @@ azure-billing-optimizer/
 
 ## 📸 Screenshots
 
-> 📌 **Note:** Sensitive details like keys are partially blurred for security.
+📌 **Note:** Sensitive details like keys are partially blurred for security.
 
 1. **Azure Function App in Azure Portal**  
    ![Function App in Portal](./screenshots/function-app.png)
