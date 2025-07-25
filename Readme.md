@@ -19,7 +19,7 @@ To reduce costs in a read-heavy Cosmos DB workload by **archiving old billing re
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
 ```plaintext
 azure-billing-optimizer/
@@ -37,10 +37,9 @@ azure-billing-optimizer/
 │
 └── README.md                     # Project instructions
 
+## Screenshots
 
-## 📸 Screenshots
-
-> 📌 **Note:** Sensitive details like keys are partially blurred for security.
+📌 **Note:** Sensitive details like keys are partially blurred for security.
 
 1. **Azure Function App in Azure Portal**  
    ![Function App in Portal](./screenshots/function-app.png)
@@ -57,6 +56,7 @@ azure-billing-optimizer/
 5. **Terminal Output After Successful Deployment**  
    ![Terminal Output](./screenshots/terminal-deploy.png)
 
+---
 
 ## ⏰ Function Logic
 
@@ -65,7 +65,9 @@ azure-billing-optimizer/
 - Moves billing records **older than 90 days** to an **archive container**
 - Deletes archived records from the original container
 
-##✅ Constraints Met
+---
+
+## ✅ Constraints Met
 
 | Constraint                  | Status  |
 |----------------------------|---------|
@@ -75,6 +77,7 @@ azure-billing-optimizer/
 | Simplicity                 | ✅ Yes  |
 | Serverless & scalable      | ✅ Yes  |
 
+---
 
 ## 🧪 Testing
 
