@@ -38,7 +38,8 @@ azure-billing-optimizer/
 └── README.md                     # Project instructions
 
 
-## 📸 Screenshots
+
+### 📸 Screenshots
 
 📌 **Note:** Sensitive details like keys are partially blurred for security.
 
@@ -56,7 +57,6 @@ azure-billing-optimizer/
 
 5. **Terminal Output After Successful Deployment**  
    ![Terminal Output](./screenshots/terminal-deploy.png)
-
 
 ## ⏰ Function Logic
 
