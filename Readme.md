@@ -18,25 +18,6 @@ To reduce costs in a read-heavy Cosmos DB workload by **archiving old billing re
 - **Automation**: Timer-based data archival (no manual trigger required)
 
 ---
-
-### 📁 Project Structure
-
-```plaintext
-azure-billing-optimizer/
-│
-├── infra/                        # Phase 1 – Infrastructure as Code
-│   └── azuredeploy.json         # ARM template to provision all Azure resources
-│
-├── function/                     # Phase 2 – Python Function App
-│   ├── archive_old_billing_records/
-│   │   ├── __init__.py          # Archival logic (moves records > 3 months)
-│   │   └── function.json        # Timer trigger config (runs hourly)
-│   ├── host.json
-│   ├── requirements.txt
-│   └── local.settings.json      # Local development settings (excluded from repo)
-│
-└── README.md                     # Project instructions
-
 ## Screenshots
 
 📌**Note:** Sensitive details like keys are partially blurred for security.
@@ -58,6 +39,15 @@ azure-billing-optimizer/
 
 5. **Terminal Output After Successful Deployment**  
    ![Terminal Output](https://github.com/Prudhvi5442/Azure-billing-optimizer/blob/60a4ad551ab372756e617650182e82a1f46b3632/screenshots/Terminal%20Output%20After%20Successful%20Deployment.png)
+
+---
+
+## 🧱 Architecture Diagram
+
+This diagram illustrates the serverless architecture used to optimize billing records by archiving data older than 3 months to reduce storage cost.
+
+![Architecture Diagram](./screenshots/architecture.png)
+
 
 ---
 
@@ -89,7 +79,6 @@ azure-billing-optimizer/
 - Logs available in Azure Monitor under the Function App resource
 
 ---
-
 ## 🤝 Acknowledgements
 
 - Project architecture, logic, and deployment were implemented by me.
